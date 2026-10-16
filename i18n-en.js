@@ -29,11 +29,11 @@
     splashTag: "Coming soon"
   },
   cmds: [
-    { text: "रमेश ला 500 रुपया भेज दे", gloss: "Send 500 rupees to Ramesh", title: "Send ₹500 to Ramesh", summary: "Ramesh is already in your contacts — no number to type.", fields: [["You want to","Send money"],["Amount","₹ 500.00"],["To","Ramesh Sahu"],["From","SBI ···· 4417"]], action: "Confirm & enter PIN" },
-    { text: "मोर बैलेंस बता", gloss: "Tell my balance", title: "Your balance", summary: "No name, no amount — it just tells you what's left.", fields: [["You want to","Check balance"],["Account","SBI ···· 4417"],["Balance","₹ 8,420.00"]], action: "Read it out loud" },
-    { text: "सुनीता ले 250 रुपया मांग", gloss: "Ask Sunita for 250 rupees", title: "Ask Sunita for ₹250", summary: "She gets a request; money moves only if she agrees.", fields: [["You want to","Request money"],["Amount","₹ 250.00"],["From","Sunita Verma"]], action: "Send request" },
-    { text: "क्यूआर स्कैनर खोल दे", gloss: "Open the QR scanner", title: "Open the scanner", summary: "For the shop counter — point at the QR code and pay.", fields: [["You want to","Scan a QR code"],["Camera","Opens straight away"]], action: "Open camera" },
-    { text: "पिछला लेनदेन दिखा", gloss: "Show previous transactions", title: "Recent payments", summary: "Everything sent and received, newest first.", fields: [["You want to","See history"],["Showing","Last 20 payments"],["Account","SBI ···· 4417"]], action: "Show list" }
+    { text: "Send 500 rupees to Ramesh", gloss: "Send money", title: "Send ₹500 to Ramesh", summary: "Ramesh is already in your contacts — no number to type.", fields: [["You want to","Send money"],["Amount","₹ 500.00"],["To","Ramesh Sahu"],["From","SBI ···· 4417"]], action: "Confirm & enter PIN" },
+    { text: "Tell my balance", gloss: "Check balance", title: "Your balance", summary: "No name, no amount — it just tells you what's left.", fields: [["You want to","Check balance"],["Account","SBI ···· 4417"],["Balance","₹ 8,420.00"]], action: "Read it out loud" },
+    { text: "Ask Sunita for 250 rupees", gloss: "Request money", title: "Ask Sunita for ₹250", summary: "She gets a request; money moves only if she agrees.", fields: [["You want to","Request money"],["Amount","₹ 250.00"],["From","Sunita Verma"]], action: "Send request" },
+    { text: "Open the QR scanner", gloss: "QR code", title: "Open the scanner", summary: "For the shop counter — point at the QR code and pay.", fields: [["You want to","Scan a QR code"],["Camera","Opens straight away"]], action: "Open camera" },
+    { text: "Show previous transactions", gloss: "Transaction history", title: "Recent payments", summary: "Everything sent and received, newest first.", fields: [["You want to","See history"],["Showing","Last 20 payments"],["Account","SBI ···· 4417"]], action: "Show list" }
   ],
   features: [
     { tag: "Scan & pay", title: "Pay at the shop", body: "Point your camera at the QR on the counter. Nothing to read, nothing to type." },
